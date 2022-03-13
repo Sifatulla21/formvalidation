@@ -1,0 +1,56 @@
+    /* Header Styling */
+    .head{
+    color:#005c99 ;
+    }
+    .head h1{   
+        margin-left: 40%;
+        margin-right: 30%;
+    }
+    .head h2{   
+        margin-left: 43%;
+        margin-right: 30%;
+    }
+    .head h3{   
+        margin-left: 45%;
+        margin-right: 30%;
+    }
+    /* Label Styling */
+    label{
+        width: 100px;
+        font-size: larger;
+        display: inline-block;
+        margin-left: 20px;
+    }
+    /* Input Field Styling */
+    input{
+        width: 90%;
+        height: 40px;
+        margin-left: 20px;
+    }
+    /* Submit Button Styling */
+    #submit-button{
+        background-color: #5c5cd6;
+        height: 50px;
+        width: 20%;
+        font-size: medium;
+        font-weight: bolder;
+        color: white;
+        margin-left: 20px;
+    }
+    /* Cancel Button Styling */
+    #cancel-button{
+        background-color:#ff4d4d;
+        height: 50px;
+        width: 20%;
+        font-size: medium;
+        font-weight: bolder;
+        color: white;
+        margin-left: 20px;
+    }
+    /* Form Styling */
+    .form-handel{
+        width: 50%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    

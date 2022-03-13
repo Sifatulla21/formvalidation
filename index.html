@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- Header -->
+        <div class="head">
+            <div>
+                <h1>North South University</h1>
+                <h2>Registration Form</h2>
+                <h2>CSE-482 SCE:3 Lab</h2>
+                <h3>Sifatulla</h3>
+                <h3>1813317042</h3>
+        </div>
+    </header>
+    <section>
+        <!-- Form -->
+        <div class="container form-handel">
+            <form action="successful.html" method="POST">
+                <label for="username">User name:</label><br>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Password:</label><br>
+                <input type="text" id="password" name="password"><br><br>
+                <label for="contact">Contact No:</label><br>
+                <input type="number" id="contact" name="contact"><br><br>
+                <button onclick="return validateForm()" type="submit" id="submit-button">Submit</button>
+                <button type="reset" id="cancel-button">Cancel</button>
+            </form>      
+        </div>
+    </section>
+    <!-- Link JS -->
+    <script src="form.js"></script>
+</body>
+</html>
